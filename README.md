@@ -15,6 +15,14 @@ cd reviro-test-task
 ```
 poetry install --no-root
 ```
+4. **Use python virtual environment:**
+```commandline
+poetry env use python3
+```
+5. **Activate python virtaul environment**
+```
+poetry shell
+```
 
 ## Env file configration
 ____
