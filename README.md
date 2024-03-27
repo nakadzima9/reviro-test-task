@@ -9,7 +9,7 @@ ____
 
 ```
 https://github.com/nakadzima9/reviro-test-task.git
-cd reviro-test-task.git
+cd reviro-test-task
 ```
 3. **Install dependencies with poetry:**
 ```
