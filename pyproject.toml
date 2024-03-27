@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reviro-testtask"
+version = "0.1.0"
+description = ""
+authors = ["Nakadzima9 <pascal.german@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.11"
+djangorestframework = "^3.15.0"
+drf-spectacular = "^0.27.1"
+psycopg2-binary = "^2.9.9"
+dj-database-url = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
