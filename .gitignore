@@ -172,4 +172,4 @@ poetry.toml
 pyrightconfig.json
 
 # Migrations
-#migrations/
+migrations/
