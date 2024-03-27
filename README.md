@@ -13,7 +13,7 @@ cd reviro-test-task
 ```
 3. **Install dependencies with poetry:**
 ```
-poetry install
+poetry install --no-root
 ```
 
 ## Env file configration
