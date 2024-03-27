@@ -15,11 +15,7 @@ cd reviro-test-task
 ```
 poetry install --no-root
 ```
-4. **Use python virtual environment:**
-```commandline
-poetry env use python3
-```
-5. **Activate python virtaul environment**
+4. **Activate python virtaul environment**
 ```
 poetry shell
 ```
@@ -42,6 +38,7 @@ docker-compose up -d --build
 ```
 2. **Migrate database the new PostgreSQL, execute the following command.**
 ```commandline
+docker-compose exec web python manage.py makemigrations
 docker-compose exec web python manage.py migrate
 ```
 3. **If you wanted to run createsuperuser so:**
