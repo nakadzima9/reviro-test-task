@@ -45,6 +45,14 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py test
 ```
 
+## How to user API
+____ 
+**To use Swagger:**
+- Follow the link http://127.0.0.1:8000/ in your web browser after launching the application
+- You will see a list of all available endpoints, grouped by resources (for example, products, companies).
+- Click on any endpoint to expand it and view detailed information, including the HTTP method, parameters, request body schema, and responses.
+- To try out the endpoint, click the "Try" button, fill in all the necessary parameters or query text and click "Run". Swagger will send a request to your API and display the response directly in the user interface.
+- This makes it easy to test the functionality of your API without the need for additional tools such as Postman or curl.
 
 ## Licence
 ____
